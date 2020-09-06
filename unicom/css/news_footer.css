@@ -1,0 +1,101 @@
+/* footer区域 */
+.footer{
+	width: 100%;
+	min-width: 1004px;
+	margin-top: 30px;
+	border: 1px solid blue;
+	/* background-color: red; */
+	
+}
+.content::after{
+	content: "";
+	display: block;
+	clear:both;
+	
+}
+.footer .f-box{
+	width: 1004px;
+	height: 200px;
+	margin: 30px auto;
+	/* border: 1px solid; */
+	overflow: hidden;
+}
+.footer .f-box .f-list{
+	float: left;
+	width: 9.7%;
+	height: 100%;
+	text-align: left;
+}
+
+.footer .f-box .f-list span{
+	font:14px "microsoft yahei";
+	color: #666666;
+	font-weight: 500;
+	text-align: center;
+}
+.footer .f-box .f-list ul{
+	width: 100%;
+	height: 135;
+	margin-top: 15px;
+	
+}
+
+.footer .f-box .f-list a{
+	font-size: 11px;
+	color: #a7a7a7;
+	line-height: 2em;
+}
+
+.footer .f-box .f-list ul li img{
+	width: 100px;
+	margin: 0 auto;
+	margin-left: 20px;
+}
+
+.footer .f-box .f-last{
+	width: 12.5%;
+	font-size: right;	
+	border: 1px solid red;
+}
+
+.footer .copy{
+	position: relative;
+	height: 50px;
+	width: 1004px;
+	bottom: 10px;
+	margin-top: 25px;
+	line-height: 50px;
+	margin: 0 auto;
+	
+	border-top: 1px solid #e6e6e6;
+}
+
+.footer .copy span{
+	height: 30px;
+	font: 12px;
+	color: #606060;
+	
+}
+
+.footer .copy a{
+	text-decoration: none;
+	font: 12px;
+	color: #358Dbb;
+	
+}
+
+.footer .copy .ico{
+	position: absolute;
+	right: 0;
+	width: 25px;
+	height: 25px;
+	display: block;
+	top:15px;
+	
+}
+.footer .copy .ico img{
+	width: 100%;
+}
+.footer .copy .chengxin{
+	right:30px;
+}

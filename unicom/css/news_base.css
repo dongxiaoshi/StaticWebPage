@@ -1,0 +1,32 @@
+html,body{
+	min-width:1004px;
+	height:100%;
+	width:100%;
+}
+*{
+	margin:0;
+	padding: 0;
+	font:13px "microsoft yahei","微软雅黑";
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;    /* -moz-Firefox */
+	-webkit-box-sizing:border-box;  /* -webkit-Chrome Safari */
+	/* -o-:针对Opera内核的CSS写法 */
+	/* -ms-:针对IE内核的CSS写法 */
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+li{
+	list-style:none;
+}
+
+.banner{
+	width: 1004px;
+	margin: 10px auto;
+}
+.banner img{
+	width:100%;
+	border-radius: 6px;
+}

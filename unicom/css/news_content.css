@@ -1,0 +1,133 @@
+/* 左右布局 */
+
+.content{
+	width: 1004px;
+	margin: auto;
+	border:1px solid red;
+	font-size: 16px;
+}
+
+.content .left_nav{
+	float:left;
+	border:1px solid red;
+	border-radius: 6px;
+	width:200px;
+}
+
+.content .right_text{
+	border:1px solid red;
+	width: 790px;
+	float:right;
+	border-radius: 6px;
+}
+
+.content .left_nav .title{
+	height: 50px;
+	background: #da251c;
+	
+}
+.content .left_nav .title h1{
+	color:#fff;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 50px;
+	padding-left: 15px;
+}
+.content .left_nav ul{
+	width: 100px;
+	color: #666;
+	margin: 20px 0;
+	
+}
+
+.content .left_nav ul li{
+	font-size: 15px;
+	margin: 10px 15px;
+	cursor:pointer;
+	width: 170px;
+}
+
+.content .left_nav ul li.active{
+	color: #DA251C;
+	background-image: url(../img/left-arrow-red.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 8px;
+	
+}
+
+
+/* 右侧新闻详情样式 */
+.right_text h2{
+	border: 1px solid;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 30px;
+	margin: 30px auto;
+}
+
+.right_text .sub_title{
+	width: 80%;
+	border: 1px solid;
+	margin: 0 auto;
+}
+.right_text .sub_title li{
+	float:left;
+	font-size: 16px;
+	text-align: center;
+	width: 50%;
+}
+
+.right_text .sub_title::after{
+	content: "";
+	display: block;
+	clear:both;
+	visibility: hidden;
+}
+
+/* 正文样式 */
+.right_text p{
+	border: 1px solid;
+	font-size: 15px;
+	text-align: justify;
+	text-indent: 2em;
+	line-height: 2em;
+	
+}
+
+.right_text p img{
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+	/* text-align: center; */
+}
+.right_text p strong{
+	display: block;
+	width: 100%;
+	margin: 10px auto; 
+	text-align: center;
+	font-size: 15px;
+}
+/* 分享列表 */
+.share_list{
+	border: 1px solid;
+	height: 32px;
+	margin-top: 40px;
+}
+.share_list li{
+	float: left;
+	font-size: 14px;
+	height: 32px;
+	line-height: 32px;
+	text-align: left;
+	margin-left: 20px;
+	color: #999;
+	
+}
+
+.share_list li img{
+	vertical-align: middle;
+	margin-right: 4px;
+}
